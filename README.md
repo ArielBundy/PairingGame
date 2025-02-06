@@ -45,8 +45,8 @@ After building, the executable will be located in the `dist/` folder.
 
 ## File Structure
 ```
-📂 image-pairing-game/
- ├── pairing_game.py      # Main application script
+📂 pairingGame/
+ ├── pairingGame.py      # Main application script
  ├── results/             # Folder where results are saved
  ├── images/              # Contains target and draggable images
  ├── README.md            # Project documentation
