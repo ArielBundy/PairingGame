@@ -29,7 +29,7 @@ python pairingGame.py
 ```
 
 ## Usage
-1. **Launch the game** by running `python pairing_game.py`.
+1. **Launch the game** by running `python pairingGame.py`.
 2. **Enter a code name** when prompted.
 3. **Drag and drop** images into the correct boxes.
 4. **Once all boxes are filled**, the "Next" button becomes enabled.
@@ -39,7 +39,7 @@ python pairingGame.py
 ## Building a Standalone Executable
 To create a standalone `.exe` file (Windows):
 ```sh
-pyinstaller --onefile --windowed --hidden-import=PyQt5.sip pairing_game.py
+pyinstaller --onefile --windowed --hidden-import=PyQt5.sip --add-data "images;images" --noupx pairingGame.py
 ```
 After building, the executable will be located in the `dist/` folder.
 
