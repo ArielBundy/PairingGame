@@ -37,7 +37,7 @@ python pairingGame.py
 6. **Results are saved** in the `results/` folder.
 
 ## Building a Standalone Executable
-To create a standalone `.exe` file (Windows):
+To create a standalone `.exe` file (Windows) - make sure you have pyinstaller:
 ```sh
 pyinstaller --onefile --windowed --hidden-import=PyQt5.sip --add-data "images;images" --noupx pairingGame.py
 ```
