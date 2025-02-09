@@ -140,8 +140,11 @@ class ImagePairingGame(QWidget):
         super().__init__()
         self.setWindowTitle("Image Pairing Game")
         self.setGeometry(100, 100, 900, 700)
-    
-        self.user_code, _ = QInputDialog.getText(self, "Enter Code", "Enter code name:")
+        # Prompt user for a code name and quit if Cancel is pressed
+        self.user_code, ok = QInputDialog.getText(self, "Enter Code", "Enter code name:")
+        # handle quit scenerio
+        if not ok or not self.user_code:  # If Cancel is pressed or empty input
+            sys.exit(0)  # Quit the application immediately
         self.phase_order = random.choice([(0, 1), (1, 0)])  # Randomize order of phases
         self.current_phase = 0
     
