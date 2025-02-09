@@ -25,7 +25,7 @@ Clone the repository and navigate to the project folder:
 ```sh
 git clone https://github.com/ArielBundy/PairingGame.git
 cd <PairingGame_folder>
-python pairingGame.py
+python pairingGame_v1.1.py
 ```
 
 ## Usage
@@ -39,14 +39,14 @@ python pairingGame.py
 ## Building a Standalone Executable
 To create a standalone `.exe` file (Windows) - make sure you have pyinstaller:
 ```sh
-pyinstaller --onefile --windowed --hidden-import=PyQt5.sip --add-data "images;images" --noupx pairingGame.py
+pyinstaller --onefile --windowed --hidden-import=PyQt5.sip --add-data "images;images" --noupx pairingGame_v1.1.py
 ```
 After building, the executable will be located in the `dist/` folder.
 
 ## File Structure
 ```
 📂 pairingGame/
- ├── pairingGame.py      # Main application script
+ ├── pairingGame_v1.1.py      # Main application script
  ├── results/             # Folder where results are saved
  ├── images/              # Contains target and draggable images
  ├── README.md            # Project documentation
