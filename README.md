@@ -29,7 +29,7 @@ python pairingGame_v1.1.py
 ```
 
 ## Usage
-1. **Launch the game** by running `python pairingGame.py`.
+1. **Launch the game** by running `python pairingGame_v1.1.py`.
 2. **Enter a code name** when prompted.
 3. **Drag and drop** images into the correct boxes.
 4. **Once all boxes are filled**, the "Next" button becomes enabled.
@@ -46,14 +46,14 @@ After building, the executable will be located in the `dist/` folder.
 ## File Structure
 ```
 📂 pairingGame/
- ├── pairingGame_v1.1.py      # Main application script
+ ├── pairingGame_v1.1.py  # Main application script
  ├── results/             # Folder where results are saved
  ├── images/              # Contains target and draggable images
  ├── README.md            # Project documentation
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Open Access to all.
 
 ## Author
 Developed by **Ariel Shaked**. Feel free to connect via [GitHub](https://github.com/ArielBundy).
