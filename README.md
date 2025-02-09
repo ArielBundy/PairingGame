@@ -34,7 +34,7 @@ python pairingGame_v1.1.py
 3. **Drag and drop** images into the correct boxes.
 4. **Once all boxes are filled**, the "Next" button becomes enabled.
 5. **Confirm the transition**, then complete the second phase.
-6. **Results are saved** in the `results/` folder.
+6. Click Save --> **Results are saved** in the `results/` folder.
 
 ## Building a Standalone Executable
 To create a standalone `.exe` file (Windows) - make sure you have pyinstaller:
