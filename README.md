@@ -1,7 +1,9 @@
 # Image Pairing Game
 
 ## Overview
-This is a simple drag-and-drop image pairing game built using **Python** and **PyQt5**. The game consists of two phases where the user must match images into empty boxes. A coin flip determines the starting phase, and after completing the first phase, the user proceeds to the second phase.
+This is a simple drag-and-drop image pairing game built using **Python** and **PyQt5**.  
+The game consists of two phases where the user must match images of objects with images of faces or locations.  
+A coin flip determines the starting phase, and after completing the first phase, the user proceeds to the second phase.
 
 ## Features
 - **Two Phases:** The game consists of two distinct sets of images.
